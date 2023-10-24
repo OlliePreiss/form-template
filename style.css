@@ -66,6 +66,17 @@ input {
   border-radius: 4px;
 }
 
+select {
+  color: rgb(61, 59, 59);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  width: 100%;
+  margin-left: 8px;
+  border: 0px;
+  border-bottom: 1px solid lightgray;
+  border-radius: 4px;
+}
+
 input:valid {
   border: 1px solid rgb(15, 210, 15);
 }
@@ -95,7 +106,7 @@ button {
   border: 0px none;
   border-radius: 4px;
   color: white;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
 .small-text-container {
