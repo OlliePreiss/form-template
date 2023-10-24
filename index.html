@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Form Builder</title>
+</head>
+<body>
+  <main>
+    <div class="content-container">
+      <div class="media-container">
+      </div>
+      <div class="form-container">
+        <h1>Sign up</h1>
+        <form action="" method="post" id="sign-up-form">
+          <div class="input-container">
+            <label for="name"></label>
+              <span class="material-symbols-outlined">
+                person
+              </span>
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+          </div>
+          <div class="input-container">
+            <label for="email"></label>
+              <span class="material-symbols-outlined">
+                alternate_email
+              </span>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="input-container">
+            <label for="name"></label>
+              <span class="material-symbols-outlined">
+                lock
+              </span>
+            <input type="password" id="password" name="password" placeholder="Password" minlength="8" required>
+          </div>
+          <div class="input-container">
+            <label for="country"></label>
+              <span class="material-symbols-outlined">
+                location_on
+              </span>
+            <input type="text" id="country" name="country" placeholder="Country" required>
+          </div>
+          <div class="input-container">
+            <div id="marketing-preferences-checkbox-container">
+              <input type="checkbox" id="marketing-preferences-checkbox">
+            </div>
+            <p> Tick this box if you would like to recieve occasional and relevant product updates. You can <a href="">unsubscribe</a> at any time. <a href="">Privacy Policy</a></p>
+          </div>
+          <div class="input-container">
+            <button type="" id="sign-up-button"> Sign Up </button>
+          </div>
+        </form>
+        <div class="small-text-container">
+          <p> Already have an account? <a href=""> Sign in </a> </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
